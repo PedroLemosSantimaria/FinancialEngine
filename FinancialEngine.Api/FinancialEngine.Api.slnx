@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FinancialEngine.Api/FinancialEngine.Api.csproj" />
+  <Project Path="FinancialEngine.Tests/FinancialEngine.Tests.csproj" />
+</Solution>
