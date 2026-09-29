@@ -1,0 +1,38 @@
+.page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.page__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+
+  h1 {
+    flex: 1;
+    margin: 0;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.form__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.btn-spinner {
+  display: inline-block;
+}

@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
               "ToolTip": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
               "RelativeToolTip": "FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwB4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAxwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T04:48:14.316Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "FinancialEngine.Tests\\Models\\AccountTests.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAwwCoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T04:32:05.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T04:32:05.668Z"
             }
           ]
         }

@@ -1,0 +1,53 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.page__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+
+  h1 {
+    flex: 1;
+    margin: 0;
+  }
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.state--error {
+  color: #b3261e;
+}
+
+.statement-table {
+  width: 100%;
+}
+
+.chip--credit {
+  background-color: #d4edda !important;
+  color: #1e7e34 !important;
+}
+
+.chip--debit {
+  background-color: #f8d7da !important;
+  color: #b3261e !important;
+}
+
+.amount--credit {
+  color: #1e7e34;
+  font-weight: 500;
+}
+
+.amount--debit {
+  color: #b3261e;
+  font-weight: 500;
+}

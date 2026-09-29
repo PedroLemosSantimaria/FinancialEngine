@@ -1,0 +1,15 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.spec.ts"
+, "src/app/features/accounts/accounts-list/accounts-list.component.spec.ts", "src/app/features/statement/statement.component.spec.ts", "src/app/features/transaction-form/transaction-form.component.spec.ts"  ]
+}

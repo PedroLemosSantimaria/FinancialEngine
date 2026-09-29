@@ -1,0 +1,38 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.state--error {
+  color: #b3261e;
+}
+
+.accounts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.account-card {
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.balance {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 8px 0 0;
+}
