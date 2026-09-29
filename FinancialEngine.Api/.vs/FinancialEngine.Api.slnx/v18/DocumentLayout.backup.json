@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5CC03BF7-8E63-06CB-05C3-54A66D137953}|FinancialEngine.Api\\FinancialEngine.Api.csproj|c:\\users\\pedro\\documentos\\github\\financialengine\\financialengine.api\\financialengine.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5CC03BF7-8E63-06CB-05C3-54A66D137953}|FinancialEngine.Api\\FinancialEngine.Api.csproj|solutionrelative:financialengine.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CC03BF7-8E63-06CB-05C3-54A66D137953}|FinancialEngine.Api\\FinancialEngine.Api.csproj|c:\\users\\pedro\\documentos\\github\\financialengine\\financialengine.api\\financialengine.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC03BF7-8E63-06CB-05C3-54A66D137953}|FinancialEngine.Api\\FinancialEngine.Api.csproj|solutionrelative:financialengine.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16D45063-CC78-2247-7DF8-299A6254EBB6}|FinancialEngine.Tests\\FinancialEngine.Tests.csproj|c:\\users\\pedro\\documentos\\github\\financialengine\\financialengine.api\\financialengine.tests\\services\\transactionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16D45063-CC78-2247-7DF8-299A6254EBB6}|FinancialEngine.Tests\\FinancialEngine.Tests.csproj|solutionrelative:financialengine.tests\\services\\transactionservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,24 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FinancialEngine.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Api\\Program.cs",
+              "RelativeToolTip": "FinancialEngine.Api\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T08:14:59.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "FinancialEngine.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Api\\Dockerfile",
+              "RelativeToolTip": "FinancialEngine.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-29T08:08:31.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TransactionServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
               "RelativeDocumentMoniker": "FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
               "ToolTip": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
               "RelativeToolTip": "FinancialEngine.Tests\\Services\\TransactionServiceTests.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAxwB4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAxwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T04:48:14.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T04:48:14.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AccountTests.cs",
               "DocumentMoniker": "C:\\Users\\Pedro\\Documentos\\GitHub\\FinancialEngine\\FinancialEngine.Api\\FinancialEngine.Tests\\Models\\AccountTests.cs",
               "RelativeDocumentMoniker": "FinancialEngine.Tests\\Models\\AccountTests.cs",

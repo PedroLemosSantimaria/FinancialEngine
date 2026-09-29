@@ -10,6 +10,35 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./FinancialEngine.Api
+      dockerfile: FinancialEngine.Api/Dockerfile
+    container_name: financial-api
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=financial_engine;Username=postgres;Password=postgres"
+      ASPNETCORE_URLS: "http://+:8080"
+    ports:
+      - "5000:8080"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: financial-frontend
+    depends_on:
+      - api
+    ports:
+      - "4200:80"
 
 volumes:
   pgdata:
